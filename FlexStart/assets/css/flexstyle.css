@@ -177,7 +177,7 @@ section {
 }
 
 .header.header-scrolled {
-  background: #fff;
+  background: rgb(0, 0, 0);
   padding: 15px 0;
   box-shadow: 0px 2px 20px rgba(1, 41, 112, 0.1);
 }
@@ -195,7 +195,7 @@ section {
   font-size: 30px;
   font-weight: 700;
   letter-spacing: 1px;
-  color: #012970;
+  color: rgb(255, 255, 255);
   font-family: "Nunito", sans-serif;
   margin-top: 3px;
 }
@@ -231,7 +231,7 @@ section {
   font-family: "Nunito", sans-serif;
   font-size: 16px;
   font-weight: 700;
-  color: #013289;
+  color: rgb(133, 39, 39);
   white-space: nowrap;
   transition: 0.3s;
 }
@@ -247,7 +247,7 @@ section {
 .navbar .active,
 .navbar .active:focus,
 .navbar li:hover>a {
-  color: #4154f1;
+  color: #ffffff;
 }
 
 .navbar .getstarted,
@@ -447,7 +447,8 @@ section {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url(/FlexStart/bg\ mug.gif) top center no-repeat ;
+  /* background: url(https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80) top center no-repeat ; */
+  background: url(https://images.unsplash.com/photo-1614014783958-369b9429da66?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80) top center no-repeat ;
   /* background-attachment: local; */
   background-size: cover;
 }
@@ -456,11 +457,11 @@ section {
   margin: 0;
   font-size: 48px;
   font-weight: 700;
-  color: #012970;
+  color: rgb(133, 39, 39);
 }
 
 .hero h2 {
-  color: #444444;
+  color: #ffffff;
   margin: 15px 0 0 0;
   font-size: 26px;
 }
@@ -2440,7 +2441,7 @@ h1{
 .welcome .splash {
   height: 0px;
   padding: 0px;
-  border: 130em solid #3b4d64;
+  border: 130em solid lightblue;
   position: fixed;
   left: 50%;
   top: 100%;
@@ -2454,7 +2455,7 @@ h1{
 }
 
 .welcome #welcome {
-  background: #8677c8 ;
+  background: red  ;
   width: 56px;
   height: 56px;
   position: absolute;
@@ -2524,7 +2525,7 @@ h1{
 
 @keyframes moveUp {
   0% {
-    background: #311b92;
+    background: orange;
     top: 100%;
   }
   50% {
@@ -2532,20 +2533,20 @@ h1{
   }
   100% {
     top: 50%;
-    background: #039be5;
+    background: red;
   }
 }
 
 @keyframes materia {
   0% {
-    background: #039be5;
+    background: red;
   }
   50% {
-    background: #039be5;
+    background: red;
     top: 26px;
   }
   100% {
-    background: #311b92;
+    background: red;
     width: 100%;
     height: 64px;
     border-radius: 0px;
@@ -2571,7 +2572,7 @@ h1{
   }
 } 
 body{
-  background: url(/FlexStart/live\ in\ the\ nature\,\ live\ in\ the\ moment.gif);
+  background: url();
 }
 
 
