@@ -54,7 +54,7 @@ section {
   letter-spacing: 1px;
   font-weight: 700;
   margin: 0;
-  color: #4154f1;
+  color: red;
   text-transform: uppercase;
 }
 
@@ -64,7 +64,7 @@ section {
   font-size: 38px;
   line-height: 42px;
   font-weight: 700;
-  color: #012970;
+  color: rgb(133, 39, 39);;
 }
 
 @media (max-width: 768px) {
@@ -553,14 +553,14 @@ section {
 .about h3 {
   font-size: 14px;
   font-weight: 700;
-  color: #4154f1;
+  color: red;
   text-transform: uppercase;
 }
 
 .about h2 {
   font-size: 24px;
   font-weight: 700;
-  color: #012970;
+  color: rgb(133, 39, 39);;
 }
 
 .about p {
@@ -574,7 +574,7 @@ section {
   border-radius: 4px;
   transition: 0.5s;
   color: #fff;
-  background: #4154f1;
+  background: rgb(133, 39, 39);;
   box-shadow: 0px 5px 25px rgba(65, 84, 241, 0.3);
 }
 
@@ -1606,7 +1606,7 @@ section {
 .contact .info-box i {
   font-size: 38px;
   line-height: 0;
-  color: #4154f1;
+  color: rgb(133, 39, 39);;
 }
 
 .contact .info-box h3 {
@@ -1692,7 +1692,7 @@ section {
 }
 
 .contact .php-email-form button[type=submit] {
-  background: #4154f1;
+  background: rgb(133, 39, 39);;
   border: 0;
   padding: 10px 30px;
   color: #fff;
@@ -1701,7 +1701,7 @@ section {
 }
 
 .contact .php-email-form button[type=submit]:hover {
-  background: #5969f3;
+  background: red;
 }
 
 @-webkit-keyframes animate-loading {
@@ -2572,7 +2572,7 @@ h1{
   }
 } 
 body{
-  background: url();
+  background: url(/live\ in\ the\ nature\,\ live\ in\ the\ moment.gif);
 }
 
 
